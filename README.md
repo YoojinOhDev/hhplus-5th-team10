@@ -5,6 +5,9 @@
 
 - main 브랜치에 push 되는 경우 배포가 진행되며 이때 steps 에 명시한 단계를 따라 진행됩니다. 각 step의 name은 자유롭게 작성할 수 있으며 github에서 각 단계를 보여주는 이름이 되기 때문에 어떤 작업에 대한 step인지 알아볼 수 있게 합니다.
 
+![CI_CD 구성](./CI_CD.drawio.png)
+
+
 ### steps
 1. Checkout repository:  Checkout 액션을 사용해 코드 내려받기
 2. Install dependencies: 프로젝트 의존성 설치
